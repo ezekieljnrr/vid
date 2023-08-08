@@ -1,0 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.vivid{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+@media (min-aspect-ratio: 16/9){
+  .vivid{
+    width: 100%;
+    height: auto;
+  }
+}
+@media (max-aspect-ratio: 16/9){
+  .vivid{
+    height: 100%;
+    width: auto;
+  }
+}
+.header{
+  display: flex;
+}
